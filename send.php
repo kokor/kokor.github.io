@@ -9,7 +9,7 @@ session_start();
 
 $url = 'https://fcm.googleapis.com/fcm/send';
 $YOUR_API_KEY = 'AAAALZERK6E:APA91bH-0pawAXzzuKOuj3Fu9lnxsTe0ZItRTKW40l4ibfLmKA3Wvnm-S2t_fE4rPUkGlhXO775AAYkLi0XMAZG-7yhXAcfGcy79Xk7hBfiiEM7lRuk4LVvMJvSWePHFZr3a5vMWemgR '; // Server key
-//$YOUR_TOKEN_ID = ''; // Client token id
+$YOUR_TOKEN_ID = ''; // Client token id
 
 $request_body = [
     'to' => $YOUR_TOKEN_ID,
