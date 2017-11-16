@@ -53,7 +53,7 @@ function sendTokenToServer(currentToken) {
         console.log('Отправка токена на сервер...');
 
         var url = 'register.php'; // адрес скрипта на сервере который сохраняет ID устройства
-        $.post(url, {
+        $.get(url, {
             token: currentToken
         });
 
